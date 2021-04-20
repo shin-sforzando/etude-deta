@@ -1,0 +1,7 @@
+aiofiles
+deta
+hypercorn
+jinja2
+jsonify
+fastapi
+python-dotenv

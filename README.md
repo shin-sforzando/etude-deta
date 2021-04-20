@@ -1,7 +1,7 @@
-# broad-boilerplate
+# etude-deta
 
 <!-- Badges -->
-[![Bump Version](https://github.com/shin-sforzando/broad-boilerplate/workflows/Bump%20Version/badge.svg)](https://github.com/shin-sforzando/broad-boilerplate/actions?query=workflow:%22Bump+Version%22)
+[![Bump Version](https://github.com/shin-sforzando/etude-deta/workflows/Bump%20Version/badge.svg)](https://github.com/shin-sforzando/etude-deta/actions?query=workflow:%22Bump+Version%22)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
@@ -11,17 +11,16 @@
 |Screenshot 1|Screenshot 2|
 
 <!-- Synopsis -->
-GitHub Template Repository for General Use.
+Etude for [Deta](https://deta.sh/) with [FastAPI](https://fastapi.tiangolo.com).
 
 <!-- TOC -->
 - [Prerequisites](#prerequisites)
 - [How to](#how-to)
   - [Setup](#setup)
-  - [Develop](#develop)
   - [Run](#run)
   - [Lint](#lint)
   - [Test](#test)
-  - [Deploy](#deploy)
+  - [Deploy to Deta](#deploy-to-deta)
   - [Document](#document)
 - [Misc](#misc)
 - [Notes](#notes)
@@ -30,51 +29,35 @@ GitHub Template Repository for General Use.
 
 ## Prerequisites
 
-- A (Version x.y.z or higher)
-  - B
-  - C
-- D
-  - E
+- Deta
+- FastAPI
+  - hypercorn
+  - Jinja2
 
 ## How to
 
 ```shell
 $ make help
-ps                   監視
-up                   起動
+start                起動
 setup                初回
-restart              再起
-renew                転生
-shell                接続
-logs                 記録
-follow               追跡
 open                 閲覧
 hide                 秘匿
 reveal               暴露
 deploy               配備
-stop                 停止
-down                 削除
 clean                掃除
-prune                破滅
 help                 助言
 ```
 
 ### Setup
 
 ```shell
-(T. B. D.)
-```
-
-### Develop
-
-```shell
-(T. B. D.)
+make setup
 ```
 
 ### Run
 
 ```shell
-(T. B. D.)
+make start
 ```
 
 ### Lint
@@ -89,10 +72,10 @@ help                 助言
 (T. B. D.)
 ```
 
-### Deploy
+### Deploy to Deta
 
 ```shell
-(T. B. D.)
+make deploy
 ```
 
 ### Document

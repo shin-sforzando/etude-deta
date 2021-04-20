@@ -1,0 +1,1 @@
+{"id":"e491622b-f64b-42f2-89c3-bc7914131933","space":3990,"runtime":"python3.7","name":"etude-deta","path":"7fq115","project":"a0vib2xr","account":"144798365827","region":"ap-southeast-1","deps":["aiofiles","deta","hypercorn","jinja2","fastapi","jsonify","python-dotenv"],"envs":["DETA_PROJECT_KEY"],"public":true,"log_level":"debug","cron":"","reload_deps":false}
